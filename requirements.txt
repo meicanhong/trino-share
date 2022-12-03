@@ -1,0 +1,8 @@
+dbt-trino==1.2.1
+dbt-core==1.2.1
+pydash==5.1.0
+pandas==1.4.4
+pyyaml==6.0
+pymongo==4.2.0
+--index-url https://mirrors.aliyun.com/pypi/simple/
+--trusted-host mirrors.aliyun.com

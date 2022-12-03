@@ -1,2 +1,6 @@
 /venv
 /.idea
+/dbt_packages
+/logs
+/target
+/.user.yml

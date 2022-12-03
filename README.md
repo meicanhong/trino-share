@@ -2,7 +2,7 @@
 此项目主要分享我使用Trino落地实践过的一点经验
 
 ## Trino部署
-todo
+
 
 ## Trino稳定性调优
 todo

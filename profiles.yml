@@ -1,0 +1,14 @@
+trino_share:
+  target: dev
+  outputs:
+    dev:
+      type: trino
+      user: root
+      host: localhost
+      port: 9090
+      database: system
+      schema: default
+      threads: 8
+      http_scheme: http
+      session_properties:
+        query_max_run_time: 5m
