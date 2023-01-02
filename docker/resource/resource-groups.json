@@ -1,0 +1,16 @@
+{
+  "rootGroups": [
+    {
+      "name": "admin",
+      "softMemoryLimit": "80%",
+      "hardConcurrencyLimit": 20,
+      "maxQueued": 300
+    }
+  ],
+  "selectors": [
+    {
+      "user": ".*",
+      "group": "admin"
+    }
+  ]
+}

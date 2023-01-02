@@ -6,31 +6,13 @@ models:
   - name: dbt
     table_type: demo
     columns:
-      - description:  'Log index of transaction hash'
-        description_cn: ''
-        methodology: ''
-        name: internal_index
+      - name: block_timestamp
         type: string
         tests:
           - not_null
-      - description: 'Type for nft transfers'
-        description_cn: ''
-        methodology: ''
-        name: transfer_type
+      - name: name
         type: string
         tests:
           - not_null
-      - description: 'The chain to which the contract belongs'
-        description_cn: ''
-        methodology: ''
-        name: chain
-        type: string
-        tests:
-          - not_null
-      - description: 'The contract address of the collection'
-        description_cn: ''
-        methodology: ''
-        name: collection_contract_address
-        type: string
 
 version: 2

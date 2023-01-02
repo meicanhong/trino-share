@@ -1,0 +1,39 @@
+{
+  "catalogs": [
+    {
+      "user": "dev_rw",
+      "catalog": "(iceberg|hive)",
+      "allow": "all"
+    },
+    {
+      "user": "dev_rw",
+      "catalog": "mongodb",
+      "allow": "all"
+    },
+    {
+      "user": "dev_rw",
+      "catalog": ".*",
+      "allow": "read-only"
+    },
+    {
+      "user": "prod_rw",
+      "catalog": ".*",
+      "allow": "all"
+    },
+    {
+      "user": "admin_rw",
+      "catalog": ".*",
+      "allow": "all"
+    },
+    {
+      "user": "hive_rw",
+      "catalog": "hive",
+      "allow": "all"
+    },
+    {
+      "user": "footprint_backend_rw",
+      "catalog": ".*",
+      "allow": "all"
+    }
+  ]
+}

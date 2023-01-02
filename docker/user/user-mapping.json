@@ -1,0 +1,33 @@
+{
+    "rules": [
+        {
+            "pattern": "dev_rw",
+            "user": "dev_rw",
+            "allow": true
+        },
+        {
+            "pattern": "prod_rw",
+            "user": "prod_rw",
+            "allow": true
+        },
+        {
+            "pattern": "admin_rw",
+            "user": "admin_rw",
+            "allow": true
+        },
+        {
+            "pattern": "hive_rw",
+            "user": "hive_rw",
+            "allow": true
+        },
+        {
+            "pattern": "footprint_backend_rw",
+            "user": "footprint_backend_rw",
+            "allow": true
+        },
+        {
+            "pattern": ".*",
+            "allow": false
+        }
+    ]
+}
