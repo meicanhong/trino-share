@@ -17,18 +17,6 @@
       "catalog": ".*",
       "schema": ".*",
       "owner": true
-    },
-    {
-      "user": "hive_rw",
-      "catalog": ".*",
-      "schema": ".*",
-      "owner": true
-    },
-   {
-      "user": "footprint_backend_rw",
-      "catalog": "iceberg",
-      "schema": "(footprint|user_define|footprint_test|test_data)",
-      "owner": true
     }
   ]
 }

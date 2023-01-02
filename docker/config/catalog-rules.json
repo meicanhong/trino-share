@@ -24,16 +24,6 @@
       "user": "admin_rw",
       "catalog": ".*",
       "allow": "all"
-    },
-    {
-      "user": "hive_rw",
-      "catalog": "hive",
-      "allow": "all"
-    },
-    {
-      "user": "footprint_backend_rw",
-      "catalog": ".*",
-      "allow": "all"
     }
   ]
 }

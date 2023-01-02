@@ -7,22 +7,11 @@
     },
     {
       "user": "dev_rw",
-      "catalog": "iceberg",
-      "schema": "(test_data|beta.*|footprint_test)",
-      "privileges": ["SELECT", "INSERT", "DELETE", "UPDATE", "OWNERSHIP", "GRANT_SELECT"]
-    },
-    {
-      "user": "dev_rw",
       "catalog": "mongodb",
       "privileges": ["SELECT", "INSERT", "UPDATE", "OWNERSHIP", "GRANT_SELECT"]
     },
     {
       "user": "dev_rw",
-      "catalog": "footprint-test-341610",
-      "privileges": ["SELECT", "INSERT", "UPDATE", "DELETE", "OWNERSHIP", "GRANT_SELECT"]
-    },
-    {
-      "user": "dev_rw",
       "privileges": ["SELECT", "GRANT_SELECT"]
     },
     {
@@ -42,25 +31,6 @@
     {
       "user": "admin_rw",
       "privileges": ["SELECT", "INSERT", "DELETE", "UPDATE", "OWNERSHIP", "GRANT_SELECT"]
-    },
-    {
-      "user": "hive_rw",
-      "catalog": "hive",
-      "privileges": ["SELECT", "INSERT", "DELETE", "UPDATE", "OWNERSHIP", "GRANT_SELECT"]
-    },
-    {
-      "user": "hive_rw",
-      "privileges": ["SELECT", "GRANT_SELECT"]
-    },
-   {
-      "user": "footprint_backend_rw",
-      "catalog": "iceberg",
-      "schema": "(footprint|user_define|footprint_test|test_data)",
-      "privileges": ["SELECT", "INSERT", "DELETE", "UPDATE", "OWNERSHIP", "GRANT_SELECT"]
-    },
-   {
-      "user": "footprint_backend_rw",
-      "privileges": ["SELECT", "GRANT_SELECT"]
     }
   ]
 }

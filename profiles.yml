@@ -6,7 +6,7 @@ trino_share:
       user: root
       host: localhost
       port: 9090
-      database: system
+      database: memory
       schema: default
       threads: 8
       http_scheme: http
